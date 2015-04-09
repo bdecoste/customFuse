@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<plugin name="CustomFuse" displayName="Custom Fuse" description="Custom Fuse" package="org.rhq.plugins.customfuse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:rhq-plugin"
+   xmlns:c="urn:xmlns:rhq-configuration">
+
+   <depends plugin="JMX" />
+
+   <service name="CustomFuse" 
+        discovery="CustomFuseDiscoveryComponent" 
+        class="CustomFuseComponent" 
+        supportsManualAdd="true" description="Custom JMX plugin" singleton="true">
+
+      <runs-inside>
+         <parent-resource-type name="JBoss Fuse Container" plugin="JBossFuse" />
+      </runs-inside>
+
+      <plugin-configuration>
+         <c:simple-property name="objectName" readOnly="true" default="CustomFuse:type=CustomFuse" />
+      </plugin-configuration>
+     
+      <service name="Custom JMX Service" discovery="org.rhq.plugins.jmx.MBeanResourceDiscoveryComponent" 
+        class="CustomJmxServiceComponent" 
+        supportsManualAdd="true" 
+        description="Custom JMX Service" singleton="true">
+
+         <plugin-configuration>
+            <c:simple-property name="objectName" readOnly="true" default="hawtio:type=About" />
+         </plugin-configuration>
+         
+         <!--operation name="disableDomain" displayName="Disable domain" description="Disables all contexts on each node within the current domain. If the current domain is null, then all nodes are stopped.">
+            <results>
+               <c:simple-property name="operationResult" description="The result of the operation" />
+            </results>
+         </operation>
+
+         <metric property="MasterNode" displayName="Master Node" displayType="summary" dataType="trait" />
+         <metric property="ProxyConfiguration" displayName="Proxy Configuration" displayType="summary" dataType="trait" />
+         <metric property="ProxyInfo" displayName="Proxy Info" displayType="summary" dataType="trait" />
+
+         <resource-configuration>
+            <c:simple-property name="processStatusFrequency" type="integer" required="false" description="Process status frequency." />
+         </resource-configuration-->
+      </service>
+   </service>
+</plugin>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.2.3/jaxb-api-2.2.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/transaction/jta/1.1/jta-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-jmx-plugin/4.12.0/rhq-jmx-plugin-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/mc4j/org-mc4j-ems/1.3.6-rhq/org-mc4j-ems-1.3.6-rhq.jar"/>
+  <classpathentry kind="lib" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/lib/tools.jar"/>
+  <classpathentry kind="var" path="M2_REPO/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/ant/ant/1.5/ant-1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-core-domain/4.12.0/rhq-core-domain-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-core-util/4.12.0/rhq-core-util-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jdom/jdom/1.0/jdom-1.0.jar" sourcepath="M2_REPO/jdom/jdom/1.0/jdom-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/i18nlog/i18nlog/1.0.10/i18nlog-1.0.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/picketbox/picketbox/4.0.19.SP7/picketbox-4.0.19.SP7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-core-plugin-api/4.12.0/rhq-core-plugin-api-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-core-native-system/4.12.0/rhq-core-native-system-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hyperic/sigar/1.6.5.132-6/sigar-1.6.5.132-6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.4/jaxb-impl-2.2.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-core-plugin-container/4.12.0/rhq-core-plugin-container-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-core-comm-api/4.12.0/rhq-core-comm-api-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-core-client-api/4.12.0/rhq-core-client-api-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-common-drift/4.12.0/rhq-common-drift-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/1.4/commons-io-1.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar" sourcepath="M2_REPO/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/test-utils/4.12.0/test-utils-4.12.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/testng/testng/6.5.2/testng-6.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/beust/jcommander/1.12/jcommander-1.12.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jmock/jmock/2.5.1/jmock-2.5.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.2/commons-beanutils-1.8.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.0.jboss/commons-logging-1.1.0.jboss.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-dbunit/3.1/unitils-dbunit-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-core/3.1/unitils-core-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/ognl/ognl/2.6.9/ognl-2.6.9.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-database/3.1/unitils-database-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-dbmaintainer/3.1/unitils-dbmaintainer-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/dbunit/dbunit/2.2.2/dbunit-2.2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit-addons/junit-addons/1.4/junit-addons-1.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xerces/xercesImpl/2.9.1-jbossas-2/xercesImpl-2.9.1-jbossas-2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/poi/poi/2.5.1-final-20040804/poi-2.5.1-final-20040804.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-nop/1.4.3/slf4j-nop-1.4.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-pool/commons-pool/1.3/commons-pool-1.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-jdbc/2.5.2/spring-jdbc-2.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/2.5.2/spring-beans-2.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/2.5.2/spring-core-2.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/2.5.2/spring-context-2.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/2.5.2/spring-tx-2.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-orm/3.1/unitils-orm-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-spring/3.1/unitils-spring-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-test/2.5.2/spring-test-2.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-orm/2.5.2/spring-orm-2.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-easymock/3.1/unitils-easymock-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/easymock/easymock/2.3/easymock-2.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/easymock/easymockclassextension/2.3/easymockclassextension-2.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-testng/3.1/unitils-testng-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-inject/3.1/unitils-inject-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/unitils/unitils-mock/3.1/unitils-mock-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jboss/jboss-embeddable-ejb3/hibernate-all/1.0.0.Alpha9/hibernate-all-1.0.0.Alpha9.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/rhq/rhq-core-plugin-container/4.12.0/rhq-core-plugin-container-4.12.0-tests.jar"/>
+  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jetbrains/annotations/7.0.2/annotations-7.0.2.jar"/>
+</classpath>
