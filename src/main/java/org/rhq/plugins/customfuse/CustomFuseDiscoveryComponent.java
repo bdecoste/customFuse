@@ -34,7 +34,7 @@ public class CustomFuseDiscoveryComponent extends MBeanResourceDiscoveryComponen
 
     @Override
     public Set<DiscoveredResourceDetails> discoverResources(ResourceDiscoveryContext context) {
-    	System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! discoverResources");
+ 
         Set<DiscoveredResourceDetails> tempSet = super.discoverResources(context);
 
         for (DiscoveredResourceDetails detail : tempSet) {

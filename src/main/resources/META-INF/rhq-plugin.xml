@@ -15,11 +15,11 @@
       </runs-inside>
 
       <plugin-configuration>
-         <c:simple-property name="objectName" readOnly="true" default="CustomFuse:type=CustomFuse" />
+         <c:simple-property name="objectName" readOnly="true" default="hawtio:type=*" />
       </plugin-configuration>
      
       <service name="Custom JMX Service" discovery="org.rhq.plugins.jmx.MBeanResourceDiscoveryComponent" 
-        class="CustomJmxServiceComponent" 
+        class="CustomFuseServiceComponent" 
         supportsManualAdd="true" 
         description="Custom JMX Service" singleton="true">
 

@@ -34,8 +34,6 @@ public class CustomFuseComponent extends MBeanResourceComponent {
 
 	@Override
     public AvailabilityType getAvailability() {
-		
-		System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! getAvailability");
        
         return super.getAvailability();
     }
