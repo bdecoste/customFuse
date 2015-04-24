@@ -15,31 +15,10 @@
       </runs-inside>
 
       <plugin-configuration>
-         <c:simple-property name="objectName" readOnly="true" default="hawtio:type=*" />
+         <c:simple-property name="objectName" readOnly="true" default="hawtio:type=About" />
       </plugin-configuration>
+      
+      <metric property="HawtioVersion" displayName="Hawtio version" displayType="summary" dataType="trait" />
      
-      <service name="Custom JMX Service" discovery="org.rhq.plugins.jmx.MBeanResourceDiscoveryComponent" 
-        class="CustomFuseServiceComponent" 
-        supportsManualAdd="true" 
-        description="Custom JMX Service" singleton="true">
-
-         <plugin-configuration>
-            <c:simple-property name="objectName" readOnly="true" default="hawtio:type=About" />
-         </plugin-configuration>
-         
-         <!--operation name="disableDomain" displayName="Disable domain" description="Disables all contexts on each node within the current domain. If the current domain is null, then all nodes are stopped.">
-            <results>
-               <c:simple-property name="operationResult" description="The result of the operation" />
-            </results>
-         </operation>
-
-         <metric property="MasterNode" displayName="Master Node" displayType="summary" dataType="trait" />
-         <metric property="ProxyConfiguration" displayName="Proxy Configuration" displayType="summary" dataType="trait" />
-         <metric property="ProxyInfo" displayName="Proxy Info" displayType="summary" dataType="trait" />
-
-         <resource-configuration>
-            <c:simple-property name="processStatusFrequency" type="integer" required="false" description="Process status frequency." />
-         </resource-configuration-->
-      </service>
    </service>
 </plugin>
